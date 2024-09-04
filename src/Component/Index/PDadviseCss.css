@@ -1,0 +1,10 @@
+/* ทำให้จุดตำแหน่งเป็นสีขาว */
+.slick-dots li button:before {
+    color: white; /* เปลี่ยนสีของจุดตำแหน่งเป็นสีขาว */
+    opacity: 0.75; /* ปรับความโปร่งใส */
+}
+
+.slick-dots li.slick-active button:before {
+    color: white; /* สีของจุดที่แอคทีฟเป็นสีขาว */
+    opacity: 1; /* ความโปร่งใสเต็ม */
+}
