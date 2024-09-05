@@ -9,7 +9,7 @@ import PrepaidCard from './Component/Index/PrepaidCard';
 import Footer from './Component/Footer/Footer';
 import WhyChooseUs from './Component/Index/WhyChooseUs';
 import BanFoot from './Component/Index/BanFooter';
-import Gamesss from './Component/Games/Games';// Import the Games component
+import Gamesss from './Component/Games/Games'; // Import the Games component
 import UpMoney from './Component/Money/TopUpMoney';
 import CashCard from './Component/Money/CashCard';
 import BNGames from './Component/Index/BNGames';
@@ -44,61 +44,82 @@ function App() {
     <Router>
       <div style={{ position: 'relative', overflow: 'hidden' }}>
         <video className="background-video" autoPlay loop muted>
-          <source src="/src/Img/BGvideo.mp4" type="video/mp4" />
+          <source src="/Img/BGvideo.mp4" type="video/mp4" />
         </video>
         <div className="flex flex-col min-h-screen">
-        <Navbar />
-        <div className="flex-grow">
-          <Routes>
-            <Route path="/" element={
-              <>
-                <Banner />
-                <PDadvise />
-                <PrepaidCard />
-                <WhyChooseUs />
-                <BanFoot />
-              </>
-            } />
-            <Route path="/games" element={
-               <>
-              <BNGames />
-              <Gamesss />
-              </>
-              } />
-            <Route path="/topupphone" element={
-              <>
-              <BNGames />
-              <UpMoney />
-              </>
-             } />
-             <Route path="/cashcard" element={
-              <>
-              <BNGames />
-              <CashCard />
-              </>
-             } />
-              <Route path="/onlinegames" element={
-              <>
-              <BNGames />
-              <OnlineTopup />
-              </>
-             } />
-             <Route path="/topup" element={
-              <>
-              <BNGames />
-              <Topup />
-              </>
-             } />
-              <Route path="/articles" element={
-              <>
-              <BNGames />
-              <Article />
-              </>
-             } />
-          </Routes>
+          <Navbar />
+          <div className="flex-grow">
+            <Routes>
+              <Route
+                path="/"
+                element={
+                  <>
+                    <Banner />
+                    <PDadvise />
+                    <PrepaidCard />
+                    <WhyChooseUs />
+                    <BanFoot />
+                  </>
+                }
+              />
+              <Route
+                path="/games"
+                element={
+                  <>
+                    <BNGames />
+                    <Gamesss />
+                  </>
+                }
+              />
+              <Route
+                path="/topupphone"
+                element={
+                  <>
+                    <BNGames />
+                    <UpMoney />
+                  </>
+                }
+              />
+              <Route
+                path="/cashcard"
+                element={
+                  <>
+                    <BNGames />
+                    <CashCard />
+                  </>
+                }
+              />
+              <Route
+                path="/onlinegames"
+                element={
+                  <>
+                    <BNGames />
+                    <OnlineTopup />
+                  </>
+                }
+              />
+              <Route
+                path="/topup"
+                element={
+                  <>
+                    <BNGames />
+                    <Topup />
+                  </>
+                }
+              />
+              <Route
+                path="/articles"
+                element={
+                  <>
+                    <BNGames />
+                    <Article />
+                  </>
+                }
+              />
+            </Routes>
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
         <FaArrowUp
           className={`scrollTop ${showScroll ? 'show' : ''}`}
           onClick={scrollTop}

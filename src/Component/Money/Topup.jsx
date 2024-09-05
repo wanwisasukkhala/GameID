@@ -17,19 +17,19 @@ const Topup = () => {
             id: 1,
             title: 'Garena Card',
             description: 'เลือกบัตรเงินสดที่คุณต้องการ',
-            image: '/src/Img/CardMoney/4.png',
+            image: '/Img/CardMoney/4.png',
         },
         {
             id: 2,
             title: 'True Money',
             description: 'เลือกบัตรเงินสดที่คุณต้องการ',
-            image: '/src/Img/CardMoney/1.png',
+            image: '/Img/CardMoney/1.png',
         },
         {
             id: 3,
             title: 'Dtac',
             description: 'เลือกบัตรเงินสดที่คุณต้องการ',
-            image: '/src/Img/CardMoney/AISCard.png',
+            image: '/Img/CardMoney/AISCard.png',
         },
     ];
 

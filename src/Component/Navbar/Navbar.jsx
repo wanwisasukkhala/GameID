@@ -123,7 +123,7 @@ const Navbar = () => {
         <div className="navbar-start">
           <a href="/" className="btn btn-ghost normal-case text-xl">
             <img
-              src="./src/Img/logo.png"
+              src="/Img/logo.png"
               alt="Logo"
               className="h-12 lg:h-18 w-auto max-w-full object-contain"
             />

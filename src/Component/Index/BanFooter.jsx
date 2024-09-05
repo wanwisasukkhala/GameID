@@ -9,21 +9,21 @@ const BanFoot = () => {
       <div className="flex flex-wrap justify-center items-center gap-6">
         <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
           <img 
-            src="/src/Img/truemoney.png" 
+            src="/Img/truemoney.png" 
             alt="True Money" 
             className="w-80 h-40 mb-4 transform transition duration-300 ease-in-out hover:scale-110" 
           />
         </div>
         <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
           <img 
-            src="/src/Img/TMW.png" 
+            src="/Img/TMW.png" 
             alt="True Money Wallet Gift" 
             className="w-80 h-40 mb-4 transform transition duration-300 ease-in-out hover:scale-110" 
           />
         </div>
         <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
           <img 
-            src="/src/Img/PP.png" 
+            src="/Img/PP.png" 
             alt="PromptPay" 
             className="w-80 h-40 mb-4 transform transition duration-300 ease-in-out hover:scale-110" 
           />

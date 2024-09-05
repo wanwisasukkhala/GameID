@@ -20,42 +20,42 @@ const OnlineTopup = () => {
         {
             id: 1,
             title: 'APEX Legends Mobile',
-            image: '/src/Img/OnlineTopUp/Apex.png',
+            image: '/Img/OnlineTopUp/Apex.png',
         },
         {
             id: 2,
             title: 'FreeFire',
-            image: '/src/Img/OnlineTopUp/FiFa.png',
+            image: '/Img/OnlineTopUp/FiFa.png',
         },
         {
             id: 3,
             title: 'Garena',
-            image: '/src/Img/OnlineTopUp/Garina.png',
+            image: '/Img/OnlineTopUp/Garina.png',
         },
         {
             id: 4,
             title: 'ROV Mobile',
-            image: '/src/Img/OnlineTopUp/Rov.png',
+            image: '/Img/OnlineTopUp/Rov.png',
         },
         {
             id: 5,
             title: 'FreeFire',
-            image: '/src/Img/OnlineTopUp/FiFa.png',
+            image: '/Img/OnlineTopUp/FiFa.png',
         },
         {
             id: 6,
             title: 'ROV Mobile',
-            image: '/src/Img/OnlineTopUp/Rov.png',
+            image: '/Img/OnlineTopUp/Rov.png',
         },
         {
             id: 7,
             title: 'APEX Legends Mobile',
-            image: '/src/Img/OnlineTopUp/Apex.png',
+            image: '/Img/OnlineTopUp/Apex.png',
         },
         {
             id: 8,
             title: 'Garena',
-            image: '/src/Img/OnlineTopUp/Garina.png',
+            image: '/Img/OnlineTopUp/Garina.png',
         },
     ];
 

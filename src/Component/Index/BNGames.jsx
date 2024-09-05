@@ -6,7 +6,7 @@ const BNGames = () => {
     return (
         <div className="w-full h-[325px] rounded-lg shadow-lg shadow-slate-600 overflow-hidden relative mt-[64px]"> {/* Adjust the margin-top value */}
             <img
-                src="/src/Img/Banner/banner.png"
+                src="/Img/Banner/banner.png"
                 alt="Banner"
                 className="w-full h-full object-cover"
             />

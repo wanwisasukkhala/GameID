@@ -38,21 +38,21 @@ const UpMoney = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center mb-6">
         <div className="flex flex-col items-center">
           <img
-            src="/src/Img/TMH.png"
+            src="/Img/TMH.png"
             alt="True Money"
             className="w-full max-w-xs h-auto transform transition duration-300 ease-in-out hover:scale-110"
           />
         </div>
         <div className="flex flex-col items-center">
           <img
-            src="/src/Img/DTAC-logo.png"
+            src="/Img/DTAC-logo.png"
             alt="DTAC"
             className="w-full max-w-xs h-auto transform transition duration-300 ease-in-out hover:scale-110"
           />
         </div>
         <div className="flex flex-col items-center">
           <img
-            src="/src/Img/my4G.png"
+            src="/Img/my4G.png"
             alt="My 4G"
             className="w-full max-w-xs h-auto transform transition duration-300 ease-in-out hover:scale-110"
           />
